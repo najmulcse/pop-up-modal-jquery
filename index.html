@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<tr>
+    <td class="row-title"><?php esc_attr_e('Share With Social Media: ', 'woo-review-collector'); ?></td>
+    <td>
+        <fieldset>
+            <legend class="screen-reader-text"><span ></span></legend>
+            <label for="wrc_social_enable_disable">
+                <input name="wrc_social_enable_disable" type="checkbox"
+                       id="wrc_social_enable_disable" class="wrc_social_button_enable" <?php if ($wrc_social_enable_disable && $wrc_social_enable_disable == 'on') echo "checked"; ?> />
+            </label>
+        </fieldset>
+        <input type="button" class="wrc_social_media" <?php if ($wrc_social_enable_disable && $wrc_social_enable_disable == 'off') echo "disabled"; ?> value="Add Twitter">
+        <span class="social_media_adding_status"></span>
+    </td>
+
+</tr>
+</body>
+</html>
