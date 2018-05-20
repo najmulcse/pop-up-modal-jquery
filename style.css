@@ -1,0 +1,53 @@
+
+/*Social media  popup*/
+.wrc_social_media_input-modal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.wrc_social_media_input-modal.modal-active {
+    display: block;
+}
+
+.wrc_social_media_input-modal-wrap {
+    width: 475px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+}
+
+.wrc_social_media_input-modal-header {
+    border-bottom: 1px solid #eee;
+    padding: 8px 20px;
+}
+
+.wrc_social_media_input-modal-header h3 {
+    line-height: 150%;
+    margin: 0;
+}
+
+.wrc_social_media_input-modal-body {
+    padding: 5px 20px 20px 20px;
+}
+
+.wrc_social_media_input-modal-body .reason-input {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.wrc_social_media_input-modal-footer {
+    border-top: 1px solid #eee;
+    padding: 12px 20px;
+    text-align: right;
+}
+
+.wrc_social_media_input{
+    width: 420px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
